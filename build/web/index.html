@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Home Maintenance Service</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style>
+            h1,i{
+                font-family: algerian;
+                background-color:  gainsboro;
+            }
+            #mySidenav a {
+                -o-tab-size:16;
+                position: fixed;
+                left: -110px;
+                transition: 0.3s;
+
+                width: 160px;
+                text-decoration: none;
+                font-size: 20px;
+                color: black;
+                border-radius: 0 5px 5px 0;
+                background-color: #DBE9F4;
+            }
+
+            #mySidenav a:hover {
+                left: 0;
+                color: black;
+            }
+            #login {
+                top: 110px;
+                background-color:#DBE9F4 ;
+
+            }
+
+            body{
+                color: whitesmoke;
+                background-image: url("webimag/images.jpg");
+            }
+            .popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+
+.popup .popuptext {
+    visibility: hidden;
+    width: 260px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -80px;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class - hide and show the popup */
+.popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+    from {opacity: 0;} 
+    to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+}
+            
+            </style>
+           
+    </head>
+    <body>
+    <center>
+        <h1 style="color:black">Minerva Owner's Welfare Association (MOWA) Maintenance Management </h1>
+        
+<div class="popup" onclick="myFunction()">Click to know about admin!
+    <span class="popuptext" id="myPopup">
+        ADMIN NAME: ABINAYA and KOWSALYA <BR>
+        CONTACT NUMBER:9444999732,9597811604
+    </span>
+</div>
+        
+
+<script>
+// When the user clicks on div, open the popup
+function myFunction() {
+    var popup = document.getElementById("myPopup");
+    popup.classList.toggle("show");
+}
+</script>
+       
+        <nav>
+            <div id="mySidenav" class="sidenav">
+                <a href="login.html" id="login">Login &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-user" style="font-size:36px"></i></a>  
+               <!-- <a href="register.html" id="register">Register &nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-user-plus" style="font-size:36px"></i></a> -->
+            </div>
+           
+        </nav> 
+        
+        
+            <p> 500 FLATS </p>
+            <img src="webimag/Minerva.jpg" alt="vgn" width="420" height="310" ><br>
+        
+        
+            MAINTENANCE WORKS<BR>
+           
+                
+            Carpentry<br>
+                
+                Plumbing<br>
+                Electrical<br>
+                Whitewashing<br>
+                Miscellaneous<br>
+            
+        
+    
+    </center> 
+    </body>
+</html>
